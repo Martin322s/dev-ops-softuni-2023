@@ -36,3 +36,10 @@ Search for text in files using patterns.
 
 ### `sed 's/old-text/new-text/g' filename`
 Stream editor for text manipulation.
+
+### `ps`
+List running processes.
+
+### `top`
+Display dynamic information about system processes.
+
