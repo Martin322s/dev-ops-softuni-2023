@@ -46,3 +46,14 @@ Display dynamic information about system processes.
 ### `kill PID`
 Terminate a process by its process ID (PID).
 
+### `uname -a`
+Display system information.
+
+### `df -h`
+Display disk space usage.
+
+### `free -h`
+Display memory usage.
+
+### `man command_name`
+This will display detailed information and usage instructions for each command.
