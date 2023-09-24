@@ -30,3 +30,9 @@ Concatenate and display the content of a file.
 
 ### `less filename`
 View the content of a file one page at a time.
+
+### `grep pattern filename`
+Search for text in files using patterns.
+
+### `sed 's/old-text/new-text/g' filename`
+Stream editor for text manipulation.
