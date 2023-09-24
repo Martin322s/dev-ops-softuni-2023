@@ -39,4 +39,4 @@ Docker is a powerful tool for managing containers. Here are some of the main Doc
    docker logs [container]
 
 ### **docker network**:  Manage Docker networks for connecting containers.
-    docker network [subcommand]
+   docker network [subcommand]
