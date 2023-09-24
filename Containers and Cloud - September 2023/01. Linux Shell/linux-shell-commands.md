@@ -20,3 +20,13 @@ Create an empty file.
 
 ### `mkdir directory_name`
 Create a new directory.
+
+### `rm filename`
+### `rm -r directory_name`
+Remove files or directories.
+
+### `cat filename`
+Concatenate and display the content of a file.
+
+### `less filename`
+View the content of a file one page at a time.
