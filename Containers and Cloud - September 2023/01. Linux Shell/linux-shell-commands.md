@@ -14,3 +14,9 @@ Change the current working directory.
 
 ### `pwd`
 Print the current working directory.
+
+### `touch filename`
+Create an empty file.
+
+### `mkdir directory_name`
+Create a new directory.
