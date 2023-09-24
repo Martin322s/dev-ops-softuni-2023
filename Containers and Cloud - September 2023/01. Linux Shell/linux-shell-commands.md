@@ -25,6 +25,8 @@ Create a new directory.
 ### `rm -r directory_name`
 Remove files or directories.
 
+## Text Manipulation
+
 ### `cat filename`
 Concatenate and display the content of a file.
 
@@ -37,6 +39,8 @@ Search for text in files using patterns.
 ### `sed 's/old-text/new-text/g' filename`
 Stream editor for text manipulation.
 
+## Process Management
+
 ### `ps`
 List running processes.
 
@@ -45,6 +49,8 @@ Display dynamic information about system processes.
 
 ### `kill PID`
 Terminate a process by its process ID (PID).
+
+## System Information
 
 ### `uname -a`
 Display system information.
