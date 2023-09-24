@@ -43,3 +43,6 @@ List running processes.
 ### `top`
 Display dynamic information about system processes.
 
+### `kill PID`
+Terminate a process by its process ID (PID).
+
