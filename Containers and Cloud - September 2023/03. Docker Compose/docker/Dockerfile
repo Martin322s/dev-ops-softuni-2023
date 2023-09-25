@@ -1,5 +1,5 @@
 FROM alpine
 
-ENTRYPOINT [ "echo", "Hello" ]
+ENTRYPOINT [ "echo", "Hello into Docker" ]
 
 CMD ["World"]
