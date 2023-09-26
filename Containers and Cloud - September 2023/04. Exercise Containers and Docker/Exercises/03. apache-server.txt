@@ -1,0 +1,8 @@
+docker run -- run container command
+-d -- detached mode
+-p 80:8080 -- running port
+-v ${PWD}:/url/local/apache2/htdocs -- setup volume 
+--name my-apache-app -- container name
+httpd:latest -- pulled image
+
+docker run -d -p 8080:80 --name my-apache-app -v ${PWD}:/usr/local/apache2/htdocs/ httpd:latest
