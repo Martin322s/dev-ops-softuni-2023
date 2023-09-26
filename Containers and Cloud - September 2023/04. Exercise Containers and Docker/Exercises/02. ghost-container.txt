@@ -1,0 +1,8 @@
+docker run -- run container command
+-d -- detached mode
+-e NODE_ENV=development -- enviroment variable 
+-p 3001:2368 -- running port
+--name ghost-container -- container name
+ghost:latest -- pulled image
+
+docker run -d -e NODE_ENV=development -p 3001:2368 --name ghost-container ghost:latest
