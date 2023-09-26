@@ -1,0 +1,25 @@
+docker network create mariadb_network
+
+docker run -- container run command
+-d -- detached mode
+--name mariadb_server -- container name
+--env MARIADB_USER=admin -- db username
+--env MARIADB_PASSWORD=adminpass -- db password
+--env MARIADB_ROOT_PASSWORD=my-secret -- db root password
+--network mariadb_network -- container network
+mariadb:latest -- pulled image
+
+docker run -- container run command
+-d -- detached mode
+--name mariadb_client -- container name
+--env MARIADB_USER=admin -- db username
+--env MARIADB_PASSWORD=adminpass -- db password
+--env MARIADB_ROOT_PASSWORD=my-secret  -- db root password
+--network mariadb_network -- container network
+mariadb:latest -- pulled image
+
+docker run -d --name mariadb_server --env MARIADB_USER=admin --env MARIADB_PASSWORD=adminpass 
+--env MARIADB_ROOT_PASSWORD=my-secret  mariadb:latest
+
+docker run -d --name mariadb_server --env MARIADB_USER=admin --env MARIADB_PASSWORD=adminpass 
+--env MARIADB_ROOT_PASSWORD=my-secret  mariadb:latest
