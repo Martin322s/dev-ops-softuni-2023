@@ -1,0 +1,10 @@
+docker run -- run container command
+-e ACCEPT_EULA=Y -- EULA enviroment variable
+-e MSSQL_SA_PASSWORD=yourStrongPassword12# -- enviroment password variable
+-p 1433:1433 -- running port
+-v sqldata:/var/opt/mssql -- setup volume
+-d -- detached mode
+mcr.microsoft.com/mssql/server -- pulled image
+
+docker run -e ACCEPT_EULA=Y -e MSSQL_SA_PASSWORD=yourStrongPassword12# -p 1433:1433 
+-v sqldata:/var/opt/mssql -d mcr.microsoft.com/mssql/server
