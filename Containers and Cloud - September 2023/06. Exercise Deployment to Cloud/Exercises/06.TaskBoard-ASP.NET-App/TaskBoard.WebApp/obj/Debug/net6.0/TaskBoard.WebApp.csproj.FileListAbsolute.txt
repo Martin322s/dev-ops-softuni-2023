@@ -1,0 +1,9 @@
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.csproj.AssemblyReference.cache
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.AssemblyInfoInputs.cache
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.AssemblyInfo.cs
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.RazorAssemblyInfo.cache
+C:\Users\msofr\OneDrive\Desktop\06.TaskBoard-ASP.NET-App\TaskBoard.WebApp\obj\Debug\net6.0\TaskBoard.WebApp.RazorAssemblyInfo.cs
