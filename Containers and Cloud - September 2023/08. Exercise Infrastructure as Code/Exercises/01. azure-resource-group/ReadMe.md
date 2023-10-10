@@ -80,3 +80,7 @@ If needed, you can also use Terraform to delete the Azure Resource Group you cre
 `terraform destroy` 
 
 Again, you will be prompted to confirm the deletion. Type "yes" and press Enter.
+
+## Conclusion
+
+You have successfully created an Azure Resource Group using Terraform. This infrastructure-as-code approach allows for consistent and repeatable deployment and management of Azure resources. You can extend this configuration to create and manage more Azure resources by adding additional resource blocks to your Terraform configuration file.
