@@ -46,3 +46,25 @@ In this code:
 
 -   We define the Azure provider block, and within it, we specify the features required.
 -   We create an Azure Resource Group using the `azurerm_resource_group` resource. Make sure to replace `"your-resource-group-name"` with your preferred name and set the appropriate `location`.
+
+-   ## Step 4: Initialize, Format, Validate, and Apply your Terraform configuration
+
+Now, let's initialize your Terraform configuration, format it, validate it, and apply it to create the Azure Resource Group.
+
+1.  Initialize the configuration:
+
+`terraform init` 
+
+2.  Format the configuration to ensure consistent style:
+
+`terraform fmt` 
+
+3.  Validate the configuration to check for any errors:
+
+`terraform validate` 
+
+4.  Apply the configuration to create the Azure Resource Group:
+
+`terraform apply` 
+
+You will be prompted to confirm the creation. Type "yes" and press Enter to proceed.
