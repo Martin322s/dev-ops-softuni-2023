@@ -16,3 +16,11 @@ Open a terminal (e.g., PowerShell) and create a new folder for your Terraform co
 
 mkdir terraform-azure-rg
 cd terraform-azure-rg` 
+
+## Step 2: Authentication with Azure CLI
+
+Before you can create Azure resources with Terraform, you need to authenticate using the Azure CLI. Run the following command to log in to your Azure account:
+
+`az login` 
+
+Follow the authentication process in your web browser if prompted.
