@@ -68,3 +68,15 @@ Now, let's initialize your Terraform configuration, format it, validate it, and 
 `terraform apply` 
 
 You will be prompted to confirm the creation. Type "yes" and press Enter to proceed.
+
+## Step 5: Verify in Azure Portal
+
+After Terraform has successfully created the Azure Resource Group, you can verify its existence by logging into the [Azure Portal](https://portal.azure.com/) in your web browser.
+
+## Step 6: Deleting the Resource Group
+
+If needed, you can also use Terraform to delete the Azure Resource Group you created. Run the following command:
+
+`terraform destroy` 
+
+Again, you will be prompted to confirm the deletion. Type "yes" and press Enter.
