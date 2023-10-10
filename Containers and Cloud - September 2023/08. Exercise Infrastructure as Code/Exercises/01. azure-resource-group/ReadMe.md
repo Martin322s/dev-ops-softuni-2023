@@ -24,3 +24,25 @@ Before you can create Azure resources with Terraform, you need to authenticate u
 `az login` 
 
 Follow the authentication process in your web browser if prompted.
+
+## Step 3: Create your Terraform configuration file
+
+Now, create a Terraform configuration file (e.g., `main.tf`) in your folder and open it using a text editor.
+
+`touch main.tf` 
+
+Add the following code to your `main.tf` file:
+
+`provider "azurerm" {
+  features {}
+}
+
+resource "azurerm_resource_group" "example" {
+  name     = "your-resource-group-name"
+  location = "East US" # Replace with your desired Azure region
+}` 
+
+In this code:
+
+-   We define the Azure provider block, and within it, we specify the features required.
+-   We create an Azure Resource Group using the `azurerm_resource_group` resource. Make sure to replace `"your-resource-group-name"` with your preferred name and set the appropriate `location`.
