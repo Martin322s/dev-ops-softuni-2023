@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+    sqlserver:
+        container_name: sqlserver
+        image: mcr.microsoft.com/mssql/server:latest
+        ports:
+            - "1433:1433"
+        deploy:
+            resources:
+                reservations:
+                    cpus: '2'
+                    memory: '2G'
+        environment:
+            - ACCEPT_EULA=Y
+            - MSSQL_SA_PASSWORD=myStrongPassword
+        volumes:
+            - sqldata:/var/opt/mssql
+
+    webapp:
+        container_name: web-app
+        domainname: martin13s18
+        build:
+            context: .
+        image: martin13s18homiesscr.azurecr.io/homies
+        ports:
+            - "80:80"
+        restart: on-failure
+
+volumes:
+    sqldata:
+        driver: azure_file
+        driver_opts:
+            share_name: sql-volume
+            storage_account_name: homiesstorageaccmero1
